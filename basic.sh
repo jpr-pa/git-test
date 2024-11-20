@@ -27,3 +27,6 @@ EOF
 # Build the Docker image
 docker build -t newtaste .
 
+#run the docker container
+docker run --name subhani newtaste
+
