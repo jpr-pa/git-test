@@ -28,5 +28,5 @@ EOF
 docker build -t newtaste .
 
 #run the docker container
-docker run --name subhani newtaste
+docker run -d --name subhani newtaste
 
